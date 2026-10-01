@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <h1 id="demo" class="sample" class="sample2" >hello from h1 </h1>
+    <button id="btn" onclick="display()" >click to change</button>
+     
+    <script>
+    // let h1=document.getElementById("demo");
+ let h1=document.getElementsByClassName("sample");
+ console.log(h1[0])
+    function display(){
+        h1[0].innerHTML= "hello from funcation";
+        h1[0].style.color ="red"
+        h1[0].style.backgroundColor="blue"
+    }
+//
+  
+// document.write("hello world from line 1")
+// document.write("hello world from line 2")
+// document.write("hello from line 3")
+
+// console.log("hello from console")
+
+
+    </script>
+</body>
+</html>
